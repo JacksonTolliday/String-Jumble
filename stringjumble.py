@@ -1,7 +1,7 @@
 """
 stringjumble.py
 Author: <your name>
-Credit: https://stackoverflow.com/questions/931092/reverse-a-string-in-python
+Credit: https://stackoverflow.com/questions/931092/reverse-a-string-in-python, https://stackoverflow.com/questions/22042948/split-string-using-a-newline-delimiter-with-python
 
 Assignment:
 
@@ -32,7 +32,8 @@ print('You entered "{0}". Now jumble it:'.format(inp))
 revboth = inp [::-1]
 print(revboth)
 
-revwrds = inp.split(' ')
-print(revwrds)
-'''revlets
-revwrds'''
+revwrds = inp.split(' ') [::-1]
+print(' '.join(revwrds))
+
+revlets = revboth.split(' ') [::-1]
+print(' '.join(revlets))
