@@ -1,7 +1,7 @@
 """
 stringjumble.py
-Author: <your name>
-Credit: https://stackoverflow.com/questions/931092/reverse-a-string-in-python, https://stackoverflow.com/questions/22042948/split-string-using-a-newline-delimiter-with-python
+Author: Jackson Tolliday
+Credit: https://stackoverflow.com/questions/931092/reverse-a-string-in-python, https://stackoverflow.com/questions/22042948/split-string-using-a-newline-delimiter-with-python, https://stackoverflow.com/questions/13207697/how-to-remove-square-brackets-from-list-in-python
 
 Assignment:
 
